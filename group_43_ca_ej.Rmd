@@ -13,7 +13,7 @@ library(here)
 ```
 
 ```{r}
-ca_demographics <- read.csv(here("data", "ces3demographics.csv")) %>% 
+ces <- read.csv(here("data", "ces3demographics.csv")) %>% 
   clean_names()
 ```
 
