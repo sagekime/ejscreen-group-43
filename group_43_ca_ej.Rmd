@@ -21,8 +21,8 @@ ces <- read.csv(here("data", "ces3demographics.csv")) %>%
 ```{r}
 ggplot(data = ces, aes(x = white, y = ces_3_0_score)) +
   geom_hex() +
-  scale_fill_gradient(low = "blue", high = "orange") +
-  labs(x = "% White Population in Census Tract", y = "CalEnviroScreen 3.0 Score") +
+  scale_fill_gradient(low = "navy", high = "orange") +
+  labs(x = "% White Population in Census Tract", y = "CalEnviroScreen 3.0 Score", title = "CalEnviroScreen 3.0 Scores Based\non Density of White Population") +
   theme_minimal()
   
 ```
