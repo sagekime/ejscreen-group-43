@@ -27,3 +27,4 @@ ggplot(data = ces, aes(x = white, y = ces_3_0_score)) +
   
 ```
 
+This graph illustrated a trend of lower CES3.0 scores in census tracts with a higher population percentage of people identifying as white.
